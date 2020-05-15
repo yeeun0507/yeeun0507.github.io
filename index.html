@@ -1,0 +1,972 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>임예은 자기소개 페이지</title>
+   
+    <style sheet>/*!
+        * Start Bootstrap - Freelancer v3.3.7+1 (http://startbootstrap.com/template-overviews/freelancer)
+        * Copyright 2013-2016 Start Bootstrap
+        * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+        */
+       body {
+         font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+         overflow-x: hidden;
+       }
+       p {
+         font-size: 20px;
+       }
+       p.small {
+         font-size: 16px;
+       }
+       a,
+       a:hover,
+       a:focus,
+       a:active,
+       a.active {
+         color: #18BC9C;
+         outline: none;
+       }
+       h1,
+       h2,
+       h3,
+       h4,
+       h5,
+       h6 {
+         font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+         text-transform: uppercase;
+         font-weight: 700;
+       }
+       hr.star-light,
+       hr.star-primary {
+         padding: 0;
+         border: none;
+         border-top: solid 5px;
+         text-align: center;
+         max-width: 250px;
+         margin: 25px auto 30px;
+       }
+       hr.star-light:after,
+       hr.star-primary:after {
+         content: "\f005";
+         font-family: FontAwesome;
+         display: inline-block;
+         position: relative;
+         top: -0.8em;
+         font-size: 2em;
+         padding: 0 0.25em;
+       }
+       hr.star-light {
+         border-color: white;
+       }
+       hr.star-light:after {
+         background-color: #18BC9C;
+         color: white;
+       }
+       hr.star-primary {
+         border-color: #2C3E50;
+       }
+       hr.star-primary:after {
+         background-color: white;
+         color: #2C3E50;
+       }
+       .img-centered {
+         margin: 0 auto;
+       }
+       header {
+         text-align: center;
+         background: #18BC9C;
+         color: white;
+       }
+       header .container {
+         padding-top: 100px;
+         padding-bottom: 50px;
+       }
+       header img {
+         display: block;
+         margin: 0 auto 20px;
+       }
+       header .intro-text .name {
+         display: block;
+         font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+         text-transform: uppercase;
+         font-weight: 700;
+         font-size: 2em;
+       }
+       header .intro-text .skills {
+         font-size: 1.25em;
+         font-weight: 300;
+       }
+       @media (min-width: 768px) {
+         header .container {
+           padding-top: 200px;
+           padding-bottom: 100px;
+         }
+         header .intro-text .name {
+           font-size: 4.75em;
+         }
+         header .intro-text .skills {
+           font-size: 1.75em;
+         }
+       }
+       .navbar-custom {
+         background: #2C3E50;
+         font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+         text-transform: uppercase;
+         font-weight: 700;
+         border: none;
+       }
+       .navbar-custom a:focus {
+         outline: none;
+       }
+       .navbar-custom .navbar-brand {
+         color: white;
+       }
+       .navbar-custom .navbar-brand:hover,
+       .navbar-custom .navbar-brand:focus,
+       .navbar-custom .navbar-brand:active,
+       .navbar-custom .navbar-brand.active {
+         color: white;
+       }
+       .navbar-custom .navbar-nav {
+         letter-spacing: 1px;
+       }
+       .navbar-custom .navbar-nav li a {
+         color: white;
+       }
+       .navbar-custom .navbar-nav li a:hover {
+         color: #18BC9C;
+         outline: none;
+       }
+       .navbar-custom .navbar-nav li a:focus,
+       .navbar-custom .navbar-nav li a:active {
+         color: white;
+       }
+       .navbar-custom .navbar-nav li.active a {
+         color: white;
+         background: #18BC9C;
+       }
+       .navbar-custom .navbar-nav li.active a:hover,
+       .navbar-custom .navbar-nav li.active a:focus,
+       .navbar-custom .navbar-nav li.active a:active {
+         color: white;
+         background: #18BC9C;
+       }
+       .navbar-custom .navbar-toggle {
+         color: white;
+         text-transform: uppercase;
+         font-size: 10px;
+         border-color: white;
+       }
+       .navbar-custom .navbar-toggle:hover,
+       .navbar-custom .navbar-toggle:focus {
+         background-color: #18BC9C;
+         color: white;
+         border-color: #18BC9C;
+       }
+       @media (min-width: 768px) {
+         .navbar-custom {
+           padding: 25px 0;
+           -webkit-transition: padding 0.3s;
+           -moz-transition: padding 0.3s;
+           transition: padding 0.3s;
+         }
+         .navbar-custom .navbar-brand {
+           font-size: 2em;
+           -webkit-transition: all 0.3s;
+           -moz-transition: all 0.3s;
+           transition: all 0.3s;
+         }
+         .navbar-custom.affix {
+           padding: 10px 0;
+         }
+         .navbar-custom.affix .navbar-brand {
+           font-size: 1.5em;
+         }
+       }
+       section {
+         padding: 100px 0;
+       }
+       section h2 {
+         margin: 0;
+         font-size: 3em;
+       }
+       section.success {
+         background: #18BC9C;
+         color: white;
+       }
+       @media (max-width: 767px) {
+         section {
+           padding: 75px 0;
+         }
+         section.first {
+           padding-top: 75px;
+         }
+       }
+       #portfolio .portfolio-item {
+         margin: 0 0 15px;
+         right: 0;
+       }
+       #portfolio .portfolio-item .portfolio-link {
+         display: block;
+         position: relative;
+         max-width: 400px;
+         margin: 0 auto;
+       }
+       #portfolio .portfolio-item .portfolio-link .caption {
+         background: rgba(24, 188, 156, 0.9);
+         position: absolute;
+         width: 100%;
+         height: 100%;
+         opacity: 0;
+         transition: all ease 0.5s;
+         -webkit-transition: all ease 0.5s;
+         -moz-transition: all ease 0.5s;
+       }
+       #portfolio .portfolio-item .portfolio-link .caption:hover {
+         opacity: 1;
+       }
+       #portfolio .portfolio-item .portfolio-link .caption .caption-content {
+         position: absolute;
+         width: 100%;
+         height: 20px;
+         font-size: 20px;
+         text-align: center;
+         top: 50%;
+         margin-top: -12px;
+         color: white;
+       }
+       #portfolio .portfolio-item .portfolio-link .caption .caption-content i {
+         margin-top: -12px;
+       }
+       #portfolio .portfolio-item .portfolio-link .caption .caption-content h3,
+       #portfolio .portfolio-item .portfolio-link .caption .caption-content h4 {
+         margin: 0;
+       }
+       #portfolio * {
+         z-index: 2;
+       }
+       @media (min-width: 767px) {
+         #portfolio .portfolio-item {
+           margin: 0 0 30px;
+         }
+       }
+       .floating-label-form-group {
+         position: relative;
+         margin-bottom: 0;
+         padding-bottom: 0.5em;
+         border-bottom: 1px solid #eeeeee;
+       }
+       .floating-label-form-group input,
+       .floating-label-form-group textarea {
+         z-index: 1;
+         position: relative;
+         padding-right: 0;
+         padding-left: 0;
+         border: none;
+         border-radius: 0;
+         font-size: 1.5em;
+         background: none;
+         box-shadow: none !important;
+         resize: none;
+       }
+       .floating-label-form-group label {
+         display: block;
+         z-index: 0;
+         position: relative;
+         top: 2em;
+         margin: 0;
+         font-size: 0.85em;
+         line-height: 1.764705882em;
+         vertical-align: middle;
+         vertical-align: baseline;
+         opacity: 0;
+         -webkit-transition: top 0.3s ease,opacity 0.3s ease;
+         -moz-transition: top 0.3s ease,opacity 0.3s ease;
+         -ms-transition: top 0.3s ease,opacity 0.3s ease;
+         transition: top 0.3s ease,opacity 0.3s ease;
+       }
+       .floating-label-form-group:not(:first-child) {
+         padding-left: 14px;
+         border-left: 1px solid #eeeeee;
+       }
+       .floating-label-form-group-with-value label {
+         top: 0;
+         opacity: 1;
+       }
+       .floating-label-form-group-with-focus label {
+         color: #18BC9C;
+       }
+       form .row:first-child .floating-label-form-group {
+         border-top: 1px solid #eeeeee;
+       }
+       footer {
+         color: white;
+       }
+       footer h3 {
+         margin-bottom: 30px;
+       }
+       footer .footer-above {
+         padding-top: 50px;
+         background-color: #2C3E50;
+       }
+       footer .footer-col {
+         margin-bottom: 50px;
+       }
+       footer .footer-below {
+         padding: 25px 0;
+         background-color: #233140;
+       }
+       .btn-outline {
+         color: white;
+         font-size: 20px;
+         border: solid 2px white;
+         background: transparent;
+         transition: all 0.3s ease-in-out;
+         margin-top: 15px;
+       }
+       .btn-outline:hover,
+       .btn-outline:focus,
+       .btn-outline:active,
+       .btn-outline.active {
+         color: #18BC9C;
+         background: white;
+         border: solid 2px white;
+       }
+       .btn-primary {
+         color: white;
+         background-color: #2C3E50;
+         border-color: #2C3E50;
+         font-weight: 700;
+       }
+       .btn-primary:hover,
+       .btn-primary:focus,
+       .btn-primary:active,
+       .btn-primary.active,
+       .open .dropdown-toggle.btn-primary {
+         color: white;
+         background-color: #1a242f;
+         border-color: #161f29;
+       }
+       .btn-primary:active,
+       .btn-primary.active,
+       .open .dropdown-toggle.btn-primary {
+         background-image: none;
+       }
+       .btn-primary.disabled,
+       .btn-primary[disabled],
+       fieldset[disabled] .btn-primary,
+       .btn-primary.disabled:hover,
+       .btn-primary[disabled]:hover,
+       fieldset[disabled] .btn-primary:hover,
+       .btn-primary.disabled:focus,
+       .btn-primary[disabled]:focus,
+       fieldset[disabled] .btn-primary:focus,
+       .btn-primary.disabled:active,
+       .btn-primary[disabled]:active,
+       fieldset[disabled] .btn-primary:active,
+       .btn-primary.disabled.active,
+       .btn-primary[disabled].active,
+       fieldset[disabled] .btn-primary.active {
+         background-color: #2C3E50;
+         border-color: #2C3E50;
+       }
+       .btn-primary .badge {
+         color: #2C3E50;
+         background-color: white;
+       }
+       .btn-success {
+         color: white;
+         background-color: #18BC9C;
+         border-color: #18BC9C;
+         font-weight: 700;
+       }
+       .btn-success:hover,
+       .btn-success:focus,
+       .btn-success:active,
+       .btn-success.active,
+       .open .dropdown-toggle.btn-success {
+         color: white;
+         background-color: #128f76;
+         border-color: #11866f;
+       }
+       .btn-success:active,
+       .btn-success.active,
+       .open .dropdown-toggle.btn-success {
+         background-image: none;
+       }
+       .btn-success.disabled,
+       .btn-success[disabled],
+       fieldset[disabled] .btn-success,
+       .btn-success.disabled:hover,
+       .btn-success[disabled]:hover,
+       fieldset[disabled] .btn-success:hover,
+       .btn-success.disabled:focus,
+       .btn-success[disabled]:focus,
+       fieldset[disabled] .btn-success:focus,
+       .btn-success.disabled:active,
+       .btn-success[disabled]:active,
+       fieldset[disabled] .btn-success:active,
+       .btn-success.disabled.active,
+       .btn-success[disabled].active,
+       fieldset[disabled] .btn-success.active {
+         background-color: #18BC9C;
+         border-color: #18BC9C;
+       }
+       .btn-success .badge {
+         color: #18BC9C;
+         background-color: white;
+       }
+       .btn-social {
+         display: inline-block;
+         height: 50px;
+         width: 50px;
+         border: 2px solid white;
+         border-radius: 100%;
+         text-align: center;
+         font-size: 20px;
+         line-height: 45px;
+       }
+       .btn:focus,
+       .btn:active,
+       .btn.active {
+         outline: none;
+       }
+       .scroll-top {
+         position: fixed;
+         right: 2%;
+         bottom: 2%;
+         width: 50px;
+         height: 50px;
+         z-index: 1049;
+       }
+       .scroll-top .btn {
+         font-size: 20px;
+         width: 50px;
+         height: 50px;
+         border-radius: 100%;
+         line-height: 28px;
+       }
+       .scroll-top .btn:focus {
+         outline: none;
+       }
+       .portfolio-modal .modal-content {
+         border-radius: 0;
+         background-clip: border-box;
+         -webkit-box-shadow: none;
+         box-shadow: none;
+         border: none;
+         min-height: 100%;
+         padding: 100px 0;
+         text-align: center;
+       }
+       .portfolio-modal .modal-content h2 {
+         margin: 0;
+         font-size: 3em;
+       }
+       .portfolio-modal .modal-content img {
+         margin-bottom: 30px;
+       }
+       .portfolio-modal .modal-content .item-details {
+         margin: 30px 0;
+       }
+       .portfolio-modal .close-modal {
+         position: absolute;
+         width: 75px;
+         height: 75px;
+         background-color: transparent;
+         top: 25px;
+         right: 25px;
+         cursor: pointer;
+       }
+       .portfolio-modal .close-modal:hover {
+         opacity: 0.3;
+       }
+       .portfolio-modal .close-modal .lr {
+         height: 75px;
+         width: 1px;
+         margin-left: 35px;
+         background-color: #2C3E50;
+         transform: rotate(45deg);
+         -ms-transform: rotate(45deg);
+         /* IE 9 */
+         -webkit-transform: rotate(45deg);
+         /* Safari and Chrome */
+         z-index: 1051;
+       }
+       .portfolio-modal .close-modal .lr .rl {
+         height: 75px;
+         width: 1px;
+         background-color: #2C3E50;
+         transform: rotate(90deg);
+         -ms-transform: rotate(90deg);
+         /* IE 9 */
+         -webkit-transform: rotate(90deg);
+         /* Safari and Chrome */
+         z-index: 1052;
+       }
+       .portfolio-modal .modal-backdrop {
+         opacity: 0;
+         display: none;
+       }
+       </style>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Theme CSS -->
+    <link href="css/freelancer.min.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body id="page-top" class="index">
+
+    <!-- Navigation -->
+    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top navbar-custom">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand" href="#page-top">임예은</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#portfolio">Portfolio</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#about">About</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <img class="img-responsive" src="img/profile.png" alt="">
+                    <div class="intro-text">
+                        <span class="name">임예은</span>
+                        <hr class="star-light">
+                        <span class="skills" style="font-family: 맑은 고딕; font-weight: bold;">멋쟁이 사자를 통해 코딩을 처음 배우게 되었습니다. 앞으로 차근차근 배워나가겠습니다!</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Portfolio Grid Section -->
+    <section id="portfolio">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Portfolio</h2>
+                    <hr class="star-primary">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/cabin.png" class="img-responsive" alt="">
+                    </a>
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/cake.png" class="img-responsive" alt="">
+                    </a>
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/circus.png" class="img-responsive" alt="">
+                    </a>
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/game.png" class="img-responsive" alt="">
+                    </a>
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/safe.png" class="img-responsive" alt="">
+                    </a>
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/submarine.png" class="img-responsive" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="success" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>About</h2>
+                    <hr class="star-light">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <br>
+                    <p style="font-family: 맑은 고딕; font-size: 15px; font-weight: bold;">
+                    서울여자대학교 경영학과 18학번<br>
+                    가장 좋아하는 것 : 강아지 망고랑 산책하기<br>
+                    요즘 빠져있는 것 : 당근마켓 중고거래와 주식공부<br>
+                    이번학기 목표 :  영어공부와 운동<br>
+                    </p>
+    
+                    <br>
+                    <p style="font-family: 맑은 고딕; font-size: 15px; font-weight: bold;">저는 멋사를 통해 코딩을 처음 배우게 되었습니다. 아직 부족하지만 열심히 배워나가겠습니다!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Contact Me</h2>
+                    <hr class="star-primary">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <!-- To configure the contact form email address, go to mail/contact_me.php and update the email address in the PHP file on line 19. -->
+                    <!-- The form should work on most web servers, but if the form is not working you may need to configure your web server differently. -->
+                    <form name="sentMessage" id="contactForm" novalidate>
+                        <div class="row control-group">
+                            <div class="form-group col-xs-12 floating-label-form-group controls">
+                                <label>Name</label>
+                                <input type="text" class="form-control" placeholder="Name" id="name" required data-validation-required-message="Please enter your name.">
+                                <p class="help-block text-danger"></p>
+                            </div>
+                        </div>
+                        <div class="row control-group">
+                            <div class="form-group col-xs-12 floating-label-form-group controls">
+                                <label>Email Address</label>
+                                <input type="email" class="form-control" placeholder="Email Address" id="email" required data-validation-required-message="Please enter your email address.">
+                                <p class="help-block text-danger"></p>
+                            </div>
+                        </div>
+                        <div class="row control-group">
+                            <div class="form-group col-xs-12 floating-label-form-group controls">
+                                <label>Phone Number</label>
+                                <input type="tel" class="form-control" placeholder="Phone Number" id="phone" required data-validation-required-message="Please enter your phone number.">
+                                <p class="help-block text-danger"></p>
+                            </div>
+                        </div>
+                        <div class="row control-group">
+                            <div class="form-group col-xs-12 floating-label-form-group controls">
+                                <label>Message</label>
+                                <textarea rows="5" class="form-control" placeholder="Message" id="message" required data-validation-required-message="Please enter a message."></textarea>
+                                <p class="help-block text-danger"></p>
+                            </div>
+                        </div>
+                        <br>
+                        <div id="success"></div>
+                        <div class="row">
+                            <div class="form-group col-xs-12">
+                                <button type="submit" class="btn btn-success btn-lg">Send</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="text-center">
+        <div class="footer-above">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-col col-md-4">
+                        <h3>MBTI유형</h3>
+                        <p>ESTJ-T
+                            <br></p>
+                    </div>
+                    <div class="footer-col col-md-4">
+                        <h3>경영학과</h3>
+                        <ul class="list-inline">
+                            
+                        </ul>
+                    </div>
+                    <div class="footer-col col-md-4">
+                        <h3>임예은</h3>
+                        <p>바쁘다 바빠 현대사회</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-below">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        Copyright &copy; 
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
+    <div class="scroll-top page-scroll hidden-sm hidden-xs hidden-lg hidden-md">
+        <a class="btn btn-primary" href="#page-top">
+            <i class="fa fa-chevron-up"></i>
+        </a>
+    </div>
+
+    <!-- Portfolio Modals -->
+    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>나의 애완견 망고</h2>
+                            <hr class="star-primary">
+                            <img src="내사진.png" class="img-responsive img-centered" alt="">
+                            <p>망고는 오늘이 생일인 2살된 푸들이에요! 애교는 없고 까칠해요ㅋㅋㅋ </p>
+                            <ul class="list-inline item-details">
+                               
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>지난 강릉여행</h2>
+                            <hr class="star-primary">
+                            <img src="img/portfolio/cake.png" class="img-responsive img-centered" alt="">
+                            <p>친구와 떠난 강릉여행 좋은 추억이였다!</p>
+                            <ul class="list-inline item-details">
+                                
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>내가 제일 좋아하는 예능 프로그램</h2>
+                            <hr class="star-primary">
+                            <img src="img/portfolio/circus.png" class="img-responsive img-centered" alt="">
+                            <p>감동도 있고 재미도 있어서 좋아한다!</p>
+                            <ul class="list-inlUine item-details">
+                                
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>최근 주식을 공부해볼까 하고 책을 샀다!</h2>
+                            <hr class="star-primary">
+                            <img src="img/portfolio/game.png" class="img-responsive img-centered" alt="">
+                            <p>모르는 것이 너무 많다ㅠㅠㅠㅠ...</p>
+                            <ul class="list-inline item-details">
+                               
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>케이크 선물</h2>
+                            <hr class="star-primary">
+                            <img src="img/portfolio/safe.png" class="img-responsive img-centered" alt="">
+                            <p>친구가 케이크를 선물해주었다!</p>
+                            <ul class="list-inline item-details">
+                                
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>내가 엄격한 관리자라니..</h2>
+                            <hr class="star-primary">
+                            <img src="img/portfolio/submarine.png" class="img-responsive img-centered" alt="">
+                            <p>ESTJ-T가 나왔다!</p>
+                            <ul class="list-inline item-details">
+                                
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- jQuery -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+
+    <!-- Contact Form JavaScript -->
+    <script src="js/jqBootstrapValidation.js"></script>
+    <script src="js/contact_me.js"></script>
+
+    <!-- Theme JavaScript -->
+    <script src="js/freelancer.min.js"></script>
+    <git add>
+    <git commit>
+    <git push>
+
+    </git>  
+    </git>
+    
+
+    </git>
+</body>
+
+</html>
